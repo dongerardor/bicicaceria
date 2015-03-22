@@ -1,0 +1,10 @@
+<div class="table">
+  <ul>
+    <li class="branding"><a ng-href="#/">Bicicacería</a></li>
+    <li><a ng-show="currentUser" ng-href="#/groups">Grupos
+    <span ng-show="howManygroups">
+      {{ '(' + howManygroups + ')' }}</span></a></li>
+    <li><a ng-hide="currentUser" ng-href="#/login">Login</a></li>
+    <li><a ng-hide="currentUser" ng-href="#/register">Registro</a></li>
+  </ul>
+</div>

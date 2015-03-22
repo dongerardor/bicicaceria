@@ -1,0 +1,33 @@
+<div class="groups cf">
+
+  <h1>Agregar grupo</h1>
+  <form class="formgroup addgroup cf"
+    name="myform"
+    ng-submit="addgroup()"
+    novalidate>
+    <div class="inputwrapper">
+      <input type="text" name="groupname" 
+      placeholder="Nombre del grupo" 
+        ng-model="groupname" ng-required="true">
+    </div>
+    <button type="submit" class="btn"
+      ng-disabled="myform.$invalid">+</button>
+  </form>
+
+  <h2>Tus grupos</h2>
+  <div class="group" ng-repeat="(key, group) in groups">
+    <button class="btn btn-delete tooltip"
+      ng-click="deletegroup(key)">
+    <span>Borrar grupo</span></button>
+
+    <a class="btn btn-list tooltip" 
+      ng-href="#/checkins/{{currentUser.regUser}}/{{key}}/checkinsList">
+      <span>Ver lista de usuarios</span></a>
+
+    <a class="btn btn-checkin tooltip" 
+      ng-href="#/checkins/{{currentUser.regUser}}/{{key}}">
+      <span>Ir al check-in</span></a>
+
+    <span class="text">{{group.name}}</span>
+  </div><!-- group list -->
+</div><!-- groups cf -->
