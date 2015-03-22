@@ -2,7 +2,8 @@
 Aplicación para anotar personas para eventos en el programa BICICACERIA, que es una caza del tesoro en bicicleta por las Sierras de Minas
 
 ## Instrucciones
-1 - Debes tener [node.js](http://nodejs.org/) y [git](http://git-scm.com/) instalado en tu computador
+
+1. Debes tener [node.js](http://nodejs.org/) y [git](http://git-scm.com/) instalado en tu computador
 
 2. Clona esto en tu máquina usando la terminal del mac o Gitbash (pc) así: `git clone https://github.com/dongerardor/bicicaceria.git`
 
