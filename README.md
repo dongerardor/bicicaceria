@@ -9,7 +9,7 @@ Aplicación para anotar personas para eventos en el programa BICICACERIA, que es
 
 3. CD a la carpeta `cd bicicaceria`
 
-4. Run `> npm-install` para instalar las dependencias del proyecto
+4. Run `> npm install` para instalar las dependencias del proyecto
 
 5. Instala gulp.js via el terminal de Mac o Gitbash en un PC así: `> npm install -g gulp`
 
